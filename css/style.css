@@ -45,7 +45,8 @@
 .bl-jumbotron {
   background-image: url("../img/fish-bg.svg");
   background-position: cover;
-  height: 400px;
+  height: 450px;
+  padding-top: 50px;
 }
 
 .jumbo-left {
@@ -74,4 +75,12 @@ h1 {
 
 .jumbo-form button {
   width: 100%;
+}
+
+.jumbo-form input, .jumbo-form button {
+  margin: 10px 0;
+}
+
+.form-span {
+  padding-bottom: 20px;
 }
