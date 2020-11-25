@@ -1,0 +1,39 @@
+.bl-navbar {
+  height: 60px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.bl-navbar li {
+  display: inline-block;
+  padding-right: 20px;
+  line-height: 60px;
+}
+
+.bl-navbar li:last-of-type {
+  padding-right: 0;
+}
+
+.bl-button {
+  color: #0069ff;
+  border: 1px solid #0069ff;
+  border-radius: 5px;
+  padding: 0 5px;
+  line-height: 30px;
+}
+
+.bl-navbar a {
+  color: #031b4e;
+  text-decoration: none;
+}
+
+.bl-navbar a:hover {
+  color: #0069ff;
+}
+
+.bl-button:hover {
+  color: white;
+  background-color: #0069ff;
+}
