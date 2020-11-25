@@ -46,7 +46,7 @@
   background-image: url("../img/fish-bg.svg");
   background-position: cover;
   height: 450px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .jumbo-left {
@@ -81,6 +81,19 @@ h1 {
   margin: 10px 0;
 }
 
-.form-span {
-  padding-bottom: 20px;
+#form-bottom {
+  padding-bottom: 40px;
+}
+
+.sub-jumbo, .sub-logos {
+  margin: 40px 0;
+}
+
+.logo-container {
+  height: 40px;
+}
+
+.logos {
+  width: 100%;
+  height: 100%;
 }
