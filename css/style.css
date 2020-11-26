@@ -175,6 +175,6 @@ p {
   color: white;
 }
 
-.regions-container ul li {
-  display: inline-block;
+.bottom-bord {
+  border-bottom: 1px solid;
 }
