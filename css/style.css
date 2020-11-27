@@ -46,11 +46,10 @@ body {
   background-color: #0069ff;
 }
 
-.bl-jumbotron {
+.jumbotron-container {
   background-image: url("../img/fish-bg.svg");
   background-position: cover;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .jumbo-left {
@@ -93,22 +92,22 @@ h1 {
   background-color: #F3F5F9;
 }
 
+.logos-container {
+  padding: 30px 0;
+}
+
 .sub-jumbo {
   font-weight: bold;
   color: grey;
 }
 
-.sub-jumbo, .sub-logos {
-  margin: 40px 0;
-}
-
 .logos {
   vertical-align: middle;
   padding: 0 25px;
+  margin: 30px 0;
 }
 
 .section-title {
-  padding-top: 40px;
   font-weight: bold;
   padding-bottom: 15px;
 }
@@ -142,8 +141,16 @@ p {
   font-size: 13px;
 }
 
+.deploy-container {
+  padding: 30px 0;
+}
+
 .deploy-section {
   padding: 0 10%;
+}
+
+.designed-container {
+  padding: 20px 0;
 }
 
 .scroll-img img {
@@ -169,20 +176,51 @@ p {
   background-color: #0069ff;
 }
 
+.features-container {
+  padding: 30px 0;
+}
+
 .regions-container {
   background-image: linear-gradient(#0047c5, #001e9a);
   color: white;
-  padding: 60px 0;
+  padding: 40px 0;
+}
+
+.regions-container ul {
+  border-bottom: 1px solid;
+  padding: 2px 10px;
+}
+
+.regions-container ul:last-child {
+  border-bottom: 0;
+}
+
+.regions-container ul li {
+  display: inline-block;
+}
+
+.regions-container ul li:first-child {
+  width: 70px;
+  font-weight: bold;
+}
+
+.regions-container ul li:last-child {
+  float: right;
+}
+
+.regions-container ul li:last-child a {
+  text-decoration: none;
+  color: #00d7d2;
+}
+
+.regions-container ul li:last-child a:hover {
+  color: #0069ff;
 }
 
 .white-title {
   color: white;
   font-weight: bold;
   padding-bottom: 20px;
-}
-
-.bottom-bord {
-  border-bottom: 1px solid;
 }
 
 .get-started-container {
@@ -199,6 +237,7 @@ p {
 .footer-container {
   background-color: #031c4e;
   color: #ffffff80;
+  padding: 10px 0;
 }
 
 .footer-container h5 {
@@ -215,7 +254,7 @@ p {
 }
 
 .footer-logo {
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 
 .footer-icons {
