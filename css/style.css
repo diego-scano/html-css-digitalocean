@@ -67,9 +67,14 @@ h1 {
 }
 
 .jumbo-right {
-  background-color: white;
-  border-radius: 5px;
   text-align: center;
+  padding: 0 15px;
+}
+
+.jumbo-form {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .jumbo-form h3:nth-of-type(2) {
@@ -130,6 +135,14 @@ h1 {
 
 .deploy-section button:hover {
   color: darkblue;
+}
+
+.bl-buttons {
+  margin-bottom: 20px;
+}
+
+.deploy-section .nested {
+  margin-bottom: 20px;
 }
 
 h5 {
