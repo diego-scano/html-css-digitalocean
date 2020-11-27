@@ -109,7 +109,7 @@ h1 {
 
 .section-title {
   font-weight: bold;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .sub-section-title {
@@ -172,6 +172,10 @@ p {
   margin-bottom: 30px;
 }
 
+.sub-scroll-img {
+  margin-top: 10px;
+}
+
 .sub-scroll-img .circle:first-of-type, .circle:hover {
   background-color: #0069ff;
 }
@@ -221,6 +225,36 @@ p {
   color: white;
   font-weight: bold;
   padding-bottom: 20px;
+}
+
+.development-container {
+  padding: 50px 0;
+}
+
+.bl-carousel {
+  width: 50%;
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 50px 5px;
+  margin: 0 20px;
+}
+
+.bl-carousel img {
+  width: 50%;
+}
+
+.bl-carousel div:first-of-type {
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.bl-carousel div:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.bl-carousel div:last-of-type {
+  padding-top: 30px;
 }
 
 .get-started-container {
